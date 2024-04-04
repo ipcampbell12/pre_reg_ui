@@ -1,0 +1,55 @@
+
+
+.center{
+     text-align: center;
+}
+
+.col-container {
+     position: relative; /* Add relative positioning */
+     border: 0.25rem solid #dee2e6; 
+     padding: 0.25rem;
+     width: auto;
+     height: 800px; /* Change to auto to fit content */
+
+   }
+   
+   .pagination-buttons {
+     position: absolute; /* Add absolute positioning */
+     bottom: 0; /* Position the buttons at the bottom */
+     left: 0; /* Align buttons to the left */
+     width: 100%; /* Ensure buttons span the full width of the column */
+     z-index: 1;
+     background-color: white; /* Adjust background color as needed */
+   }
+   
+   
+
+.small-card {
+     width: auto;
+     border: 1px solid #dee2e6;
+     border-radius: 5px;
+     padding: .25rem;
+     margin-bottom: 5px;
+     text-align: center;
+   }
+
+   .small-card h6 {
+     margin-bottom: 5px;
+   }
+
+   .small-card p {
+     margin-bottom: 3px;
+   }
+
+   .small-card .btn {
+     font-size: 12px;
+     padding: 4px 8px;
+   }
+
+
+
+   ul {
+     list-style-type: none;
+   }
+
+   
